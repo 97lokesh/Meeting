@@ -34,7 +34,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { AiFillDelete } from "react-icons/ai";
-import { removeFromImportant } from "@/redux/ListSlice";
+import { removeFromImportant } from "@/redux/listSlice";
 
 function Important () {
   const { items } = useSelector((state) => state.list);

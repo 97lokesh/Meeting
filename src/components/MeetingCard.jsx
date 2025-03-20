@@ -4,7 +4,7 @@ import { useState } from "react";
 import { CiBookmark } from "react-icons/ci";
 import Loader from "./Loader";
 import { useDispatch } from "react-redux";
-import { addToImportant } from "@/redux/ListSlice";
+import { addToImportant } from "@/redux/listSlice";
 import { FaBookmark } from "react-icons/fa";
 function MeetingCard({ title, time, word, handleDelete, id,key}) {
   let dispatch = useDispatch()
